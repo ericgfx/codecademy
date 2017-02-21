@@ -2,8 +2,66 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: black;
+}
+
+#myPass{
+  position:absolute;
+  width:100%;
+}
+
+#myPass::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('https://drscdn.500px.org/photo/169183789/m%3D2048/a5e01c8f7117531a99811d4c4bdc6f72') no-repeat fixed center;
+    background-size: auto 110%;
+    opacity: 0.5;
+    filter:blur(2px);
+    z-index: -1;   /***adding this solved logo and text issues **/
+
 }
 
 .container {
   max-width: 940px;
+}
+.logo{
+  width: 100px;
+}
+.header .container {
+  max-width:80%;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #fff;
+  text-align:center; /*centers logo*/
+}
+
+/*****form styling*******/
+.main{
+  margin:80px 0;
+}
+
+
+/*****footer*******/
+
+.footer .container{
+  border-top:1px solid #fff;
+  margin-top:30px;
+  padding-top:30px;
+}
+.footer ul {
+  list-style-type:none;
+}
+a{
+  color:#fff;
+  text-decoration:none;
+}
+.footer ul li{
+  list-style-type:none;
+  display:inline;
+  color: #fff;
+  padding-right:30px;
 }
