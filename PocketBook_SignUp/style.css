@@ -17,11 +17,11 @@ html, body {
     top: 0; 
     right: 0;
     bottom: 0;
-    left: 0;
+  	left: 0;
     background: url('https://drscdn.500px.org/photo/169183789/m%3D2048/a5e01c8f7117531a99811d4c4bdc6f72') no-repeat fixed center;
-    background-size: auto 110%;
-    opacity: 0.5;
-    filter:blur(2px);
+  	background-size: auto 110%;
+  	opacity: 0.5;
+  	filter:blur(2px);
     z-index: -1;   /***adding this solved logo and text issues **/
 
 }
@@ -30,11 +30,11 @@ html, body {
   max-width: 940px;
 }
 .logo{
-  width: 100px;
+  width: 50px;
 }
 .header .container {
   max-width:80%;
-  padding-bottom: 50px;
+  padding: 30px 0;
   border-bottom: 1px solid #fff;
   text-align:center; /*centers logo*/
 }
@@ -44,6 +44,9 @@ html, body {
   margin:80px 0;
 }
 
+.form-control{
+  border-radius:0px;
+}
 
 /*****footer*******/
 
