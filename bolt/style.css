@@ -148,4 +148,6 @@ form{
     text-align:center;
     width:100%;
   }
+    .thumbnail{
+    max-height:none;}
 }
