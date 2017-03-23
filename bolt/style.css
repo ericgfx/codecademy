@@ -47,7 +47,7 @@ html, body {
   margin-left:10px;
 }
 .container {
-  max-width: 970px;
+  width: 95%;
   margin-bottom:100px;
 }
 
