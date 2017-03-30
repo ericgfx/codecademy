@@ -2,7 +2,7 @@
 Some Solutions to problems where i hopefully created better solutions.
 
 
-Imagery to use
+Inspiring Imagery to use from Momentum cite photos where available.
 
 GG Bridge
 chrome-extension://laookkfknpbbblfpciffpaejjkokdgca/backgrounds/bc02cd92-13e1-4bc3-8020-b0acf5c80880.jpg
@@ -14,3 +14,6 @@ chrome-extension://laookkfknpbbblfpciffpaejjkokdgca/backgrounds/bc02cd92-13e1-4b
 
 Scharbeutz, DEU
 https://farm4.staticflickr.com/3931/15532327436_74c32632ac_k.jpg
+
+Salta, Argentina
+https://farm6.staticflickr.com/5210/5321285316_f9d942d8a9_o.jpg
