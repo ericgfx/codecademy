@@ -1,5 +1,6 @@
-# pro
-Some Solutions to problems where i hopefully created better solutions.
+Just some solutions to code problems and challenges where i hopefully created better solutions.
+
+
 
 
 Inspiring Imagery to use from Momentum cite photos where available.
@@ -17,3 +18,6 @@ https://farm4.staticflickr.com/3931/15532327436_74c32632ac_k.jpg
 
 Salta, Argentina
 https://farm6.staticflickr.com/5210/5321285316_f9d942d8a9_o.jpg
+
+Champagne, Italy
+https://farm1.staticflickr.com/764/22977803505_9c447f0f20_k.jpg
