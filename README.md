@@ -21,3 +21,9 @@ https://farm6.staticflickr.com/5210/5321285316_f9d942d8a9_o.jpg
 
 Champagne, Italy
 https://farm1.staticflickr.com/764/22977803505_9c447f0f20_k.jpg
+
+Austria
+https://farm4.staticflickr.com/3938/32764888973_688597f9b9_k.jpg
+
+India
+https-//farm6.staticflickr.com/5568/15062712938_85bfab7d1f_k
