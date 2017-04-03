@@ -1,4 +1,4 @@
-Just some solutions to code problems and challenges where i hopefully created better solutions.
+This repository is a collection of solutions to code challenges from Codecademy. While I absolutely love the courses, there are times I think the solutions are minimal. For instance some of the uses of bootstrap result in odd shifting or stacking of elements. While I understand the course was focusing on someother aspect, as a visual designer I <span style="color: red; font-weight: bold; text-decoration: line-through;">want</span> die inside a little bit if it's not quite pixel perfect. I also just like to experiment with rem && em vs px, and test other fun stuff. It's also a chance to use github, so feel free to teach yourself a few things, maybe even a pull request eh? Cheers. Eric
 
 
 
@@ -27,3 +27,8 @@ https://farm4.staticflickr.com/3938/32764888973_688597f9b9_k.jpg
 
 India
 https-//farm6.staticflickr.com/5568/15062712938_85bfab7d1f_k
+
+Venezuela - awesome arial photo
+chrome-extension://laookkfknpbbblfpciffpaejjkokdgca/backgrounds/4f250311-39cb-4aff-9050-87eb462f7f08.jpg
+
+
