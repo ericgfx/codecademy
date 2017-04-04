@@ -1,6 +1,6 @@
-**What is the purpose of this repository?**
+# What is the purpose of this repository?
 
-This is my collection of solutions to code challenges from Codecademy. While I absolutely love the codecademy courses, there are times I think the solutions are minimal. Some of the uses of bootstrap result in odd shifting or stacking of elements. While I understand a course  focus maybe on someother aspect, as a visual designer I ~~want~~ die inside a little bit if it's not quite pixel perfect. 
+This is my collection of solutions to code challenges from Codecademy. While I absolutely love the codecademy courses, there are times I think the solutions are minimal. Some of the uses of bootstrap result in odd shifting or stacking of elements. While I understand a course  focus maybe on someother aspect, as a visual designer ~~I would really like~~ a small piece of me dies inside if something I work on isn't perfect. What you'll find here are my "improved" versions as well as works in progress.
 
 I also like to experiment with rem && em vs px, and test other fun stuff. Because when you experiment you find ways to break stuff, and then can rebuild them stronger. It's also a chance to use github-like just now I discovered [how to make strike-thus] (https://help.github.com/articles/basic-writing-and-formatting-syntax/)-so feel free to teach yourself a few things, maybe we even a pull request eh? 
 
@@ -8,7 +8,7 @@ I also like to experiment with rem && em vs px, and test other fun stuff. Becaus
 >Eric
 
 
-#Inspiring Imagery to use from Momentum cite photos where available.
+## Inspiring Imagery to use from Momentum cite photos where available.
 
 •GG Bridge
 •chrome-extension://laookkfknpbbblfpciffpaejjkokdgca/backgrounds/bc02cd92-13e1-4bc3-8020-b0acf5c80880.jpg
