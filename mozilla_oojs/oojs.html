@@ -24,5 +24,32 @@
         var code = input.value;
         para.textContent = eval(code);
       }
+
+      var person = {
+        name : {
+          first: 'Bob',
+          last: 'Smith'
+        },
+        age: 32,
+        gender: 'male',
+        interests: ['music','skiing'],
+        bio: function(){
+          alert(this.name.first+ ' ' + this.name.last + ' is ' + this.age + ' years old. He likes ' + this.interests[0] + ' and ' + this.interests[1] + '.');
+      },
+
+      greeting: function(){
+        alert('Hi! i\'m ' + this.name.first + '.');
+    }
+  
+  };
+  var myDataName = 'height';
+var myDataValue = '1.75m';
+person[myDataName] = myDataValue;
+    person.age = 45;
+person['name']['last'] = 'Cratchit';
+person['eyes'] = 'hazel';
+person.farewell = function() { alert("Bye everybody!"); }
+        
+      
     </script>
 </html>
