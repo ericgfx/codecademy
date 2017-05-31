@@ -31,23 +31,15 @@ var main = function() {
         $(p_class).html(message);
         $(input_id).addClass('error');
       }
-      if (i==2 && value==="ericgfx01@gmail.com")
-        $(p_class).html("Email already in system.");
-        $(input_id).addClass('error');
-      
       if (i==3 && 0 < value.length && value.length < 8)
         $(p_class).html(fields[3][3]);
         $(input_id).addClass('error');
       }
-    /*I really want to understand this regular expression thing */
       if(i==3 && /^[a-zA-Z0-9- ]*$/.test(value) == true) {
-        $(p_class).html(fields[3][4]);
-        $(input_id).addClass('error');
-/*    alert('Your password needs a special character.');  */
+    alert('Your password needs a special character.');
       }
      return false;
     });
-};
+}
 
 $(document).ready(main);
-
