@@ -45,6 +45,16 @@ p {
     color: #000;
     transition: background .5s;
 }
+
+#search {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 1em;
+}
+
 /* Supporting */
 .supporting {
   text-align: center;
@@ -106,7 +116,7 @@ p {
 /* Footer */
 .footer {
   height: 27.5em; /*magic number? */
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg) no-repeat center fixed;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg) no-repeat center center;
   text-align:center;
   background-size:cover;
   position:relative; /*csstricks vertical centering */
@@ -149,4 +159,11 @@ p {
   .feature h2 {
     font-size: 3.75em; /*60/16*/
   }
+}
+
+@media (max-width:600px){
+  .main h1 {
+  font-size:33vw;
+  }
+
 }
