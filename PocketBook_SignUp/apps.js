@@ -2,7 +2,9 @@ var fields = [
   ["p.first-name-error", "#first", "Cannot be blank. Please enter your First Name."],
   ["p.last-name-error", "#last", "Please enter a Last Name."],
   ["p.email-error", "#email", "Enter a vaild email."],
-  ["p.password-error", "#password", "Password cannot be blank.", "Password must be 8 characters or more.", "Password must have at least one each: capital, special, and lowercase character."]
+  ["p.password-error", "#password", "Password cannot be blank.", 
+  "Password must be 8 characters or more.", 
+  "Password must have at least one each: capital, special, and lowercase character."]
 ];
 
 function error(ele, message, id) {
@@ -40,7 +42,7 @@ var main = function() {
         $(input_id).addClass('error');
       }
     /*I really want to understand this regular expression thing */
-      if(i==3 && /^[a-zA-Z0-9- ]*$/.test(value) == true) {
+      if(i==3 && value > 7 && /^[a-zA-Z0-9- ]*$/.test(value) == true) {
         $(p_class).html(fields[3][4]);
         $(input_id).addClass('error');
 /*    alert('Your password needs a special character.');  */
