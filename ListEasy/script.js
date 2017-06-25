@@ -1,3 +1,5 @@
+
+var main = function() {
 var template = function(text) {
   return '<p><input type="checkbox"><i class="glyphicon glyphicon-star"></i><span>' + text + '</span><i class="glyphicon glyphicon-remove"></i></p>';
 };
@@ -11,8 +13,12 @@ var checkstrike = function(x){
      $(x).addClass('strike');
  }
 };
-
-var main = function() {
+  
+  var addListItem = function(){
+    var html = template(listItem);
+    $('.list').append(html);
+  };
+  
   $('form').submit(function() {
     var text=$('#todo').val();
     if (text !== "") {
@@ -30,7 +36,10 @@ var main = function() {
   $(document).on('click','span',function() {
     checkstrike(this);
   });  
-  
+
+var commands = {'add *tag': addListItem};
+  annyang.addCommands(commands);
+  annyang.start();
   };
 
 $(document).ready(main);
