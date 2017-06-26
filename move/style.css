@@ -1,152 +1,200 @@
 html, body {
   margin: 0;
 }
+
 h1, h2, a {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;}
+  font-family: 'Oswald', sans-serif;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+
 p {
   font-family: Helvetica, Arial, sans-serif; 
 }
+
 .container {
-  max-width: 58.75em; /* This threw me - max-width vs width. 940/16px */
+  max-width: 940px;
   margin: 0 auto;
 }
 
 /* Main */
 .main {
-  text-align:center;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg) no-repeat center fixed;
+  text-align: center;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/2/move/bg.jpg) no-repeat center fixed;
   background-size: cover;
-  height: 37.5em; /*600/16*/
-  color: #fff;
-}
-.main .container{
-  position:relative;
-  top:6.25em;  /*100/16*/
-}
-.main h1 {
-  font-size: 10em;
-  margin: 0;
-}
-.main p {
-  font-size:1.125em;/*18/16*/
+  height: 600px;
 }
 
-.btn {
-  color:#fff;
-  font-size:1.125em;/*18/16*/
-  padding: .4em 2em;
-  background-color:#000;
-  transition: background .5s;
-  text-decoration:none;
+.main .container {
+  position: relative;
+  top: 100px;
 }
-.btn:hover {
-    background: #ffa800;
-    color: #000;
-    transition: background .5s;
+
+.main h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 200px;
+}
+
+.main p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#search {
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 300px;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
 }
 /* Supporting */
 .supporting {
+  background-color: #1c1c1c;
   text-align: center;
   padding: 50px 0 80px;
-  background-color: #1c1c1c;
 }
-.supporting h1, .supporting h2 {
-  color: #ffa800;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
+
 .supporting .col {
   float: left;
-  width: 28%;
+  width: 30%;
   padding: 10px;
 }
+
+.supporting h2 {
+  color: #ffa800;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
 .supporting p {
   color: #efefef;
   margin-bottom: 20px;
   line-height: 20px;
-  font-size: 12px;
 }
+
 .supporting .btn {
   background-color: #eee;
   color: #1c1c1c;
-  font-size:1.125em;/*18/16*/
+  font-size: 18px;
   padding: 8px 30px;
   text-decoration: none;
   display: inline-block;
-  transition: background .5s;
 }
 
-.supporting .btn:hover {
-    background: #ffa800;
-    color: #000;
-    transition: background .5s;
-}
-.clearfix {
-  clear: both;
-}
 /* Feature */
 .feature {
-  height: 20em;
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg) no-repeat center center;
-  background-size:cover;
-  color: #fff;
-  text-align:center;
-}
-.feature .container{
-  position:relative;
-  top:5%;
-}
-.feature h1, .feature h2 {
-  color: #fff;
-  font-size: 4em;
-  margin: 0;
-  padding:50px 0 0;
-}
-/* Footer */
-.footer {
-  height: 27.5em; /*magic number? */
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg) no-repeat center center;
-  text-align:center;
-  background-size:cover;
-  position:relative; /*csstricks vertical centering */
-}
-.footer .container{ /*centering via nudging css-tricks.com/centering-css-complete-guide */
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/2/move/feature.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  padding: 0 20px;
 }
 
-.footer h1, .footer h2 {
+.feature .container {
+  position: relative;
+  top: 200px;
+}
+
+.feature h2 {
+  color: #fff;
+  font-size: 60px;
+  margin:0;
+  padding:50px 0 0;
+
+}
+
+/* Footer */
+.footer {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/2/move/footer.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.footer .container {
+  position: relative;
+  top: 200px;
+}
+
+.footer h2 {
   color: #fff;
   font-size: 40px;
   margin: 0 0 20px 0;
   padding:50px 0 0;
 }
+
 .footer p {
   color: #fff;
   margin: 0 0 20px 0;
-  font-size: 1.125em;/*18/16 */
+  font-size: 18px;
 }
-@media (min-width:600px) {
+
+.footer .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn:hover {
+  background:#ffa800;
+  color:#000;
+}
+
+ul.ui-autocomplete {
+  width: 300px;
+  list-style: none;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  background-color: #fff;
+}
+
+ul.ui-autocomplete li {
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+ul.ui-autocomplete li:hover {
+  background-color: #ddd;
+}
+@media (max-width:600px){
   .main h1 {
-    font-size: 12.5em;
-  }
-
-  .supporting .col {
-    width: 30%;
-  }
-
-  .supporting h2 {
-    font-size: 2.5em;
-  }
-
-  .supporting p {
-    font-size: .875em; /*14/16*/
-  }
-
-  .feature h2 {
-    font-size: 3.75em; /*60/16*/
+  font-size:33vw;
   }
 }
+
+@media (max-width: 700px) {
+  .supporting .col {
+    width: 92%;
+  }
+}
+

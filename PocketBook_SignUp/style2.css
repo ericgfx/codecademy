@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+#myPass{
+  width:100%;
+
+}
+
+#myPass::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('cityBG.jpg') no-repeat fixed center;
+    background-size: auto 120%;
+    opacity: 0.5;
+    filter:blur(7px);
+    z-index: -1;   /***adding this solved logo and text issues **/
+}
+
+body {
+/*  background-image:url(https://s3.amazonaws.com/codecademy-content/projects/2/pocketbook/bg.jpg);
+  background-size:cover; 
+  background-repeat:no-repeat;  */
+  background-color: #140e07;
+  background-color: #000;
+  color:#fff;
+}
+
+.container {
+  max-width: 940px;
+}
+
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header .container {
+  padding: 30px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Main */
+.main {
+  margin: 20px 0;
+}
+
+.main h1 {
+  font-size: 30px;
+  margin: 0 0 20px 0;
+}
+
+/* Form */
+form input.form-control { 
+  border:1px solid rgba(175,150,150,0.25);
+  border-radius:0px; 
+  background:rgba(15,15,15,0.35);
+}
+form input.form-control::placeholder{
+  color: #c4c4c4;
+}
+.main .btn { 
+  margin-top:0px; 
+  color:#fff;
+    background:rgba(0,240,190,0.25);
+  border:0px;
+  border-radius:0px; 
+}
+
+.first-name-error,
+.last-name-error,
+.email-error,
+.password-error {
+  color: #ef2a0b;
+  text-shadow: 2px 2px 7px #000;
+  font-weight: 600;
+}
+
+.error {   box-shadow: 0 0 5px 2px white;
+background:rgba(15,15,10,0.8) !important;}
+
+/* Footer */
+.footer .container {
+  padding: 20px 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0 20px;
+  margin-bottom: 80px;
+}
+
+.footer li {
+  display: inline;
+  margin-right: 20px;
+}
