@@ -14,25 +14,25 @@ var checkstrike = function(x){
  }
 };
   
-  var addListItem = function(){
+  var addListItem = function(listItem){
     var html = template(listItem);
-    $('.list').append(html);
+    $('.list').append(html);  /*differs*/
   };
   
   $('form').submit(function() {
-    var text=$('#todo').val();
+    var text=$('#todo').val();  /*differs*/
     if (text !== "") {
     $('.list').append(template(text));
     $(todo).val(''); }
     return false;  
   });
   
-  $(document).on('click','.glyphicon-star',function() {
-        $(this).toggleClass('active');      
-     });
   $(document).on('click','.glyphicon-remove',function() {
         $(this).parent().remove();      
-     });
+  });
+  $(document).on('click','.glyphicon-star',function() {
+        $(this).toggleClass('active');      
+  });
   $(document).on('click','span',function() {
     checkstrike(this);
   });  
