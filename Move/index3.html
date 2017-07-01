@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <!--<style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 940px;
+        }
+        /* Header */
+        
+        .header {
+            background-color: #1c1c1c;
+            font-family: 'Oswald', sans-serif;
+        }
+        
+        .header h1 {
+            color: #ffa800;
+            font-size: 20px;
+            margin: 0;
+            padding: 10px 0;
+            text-transform: uppercase;
+        }
+        
+        .header h1 span {
+            color: #fff;
+            padding-left: 3px;
+        }
+        
+        .header .col-md-3,
+        .header .pull-right {
+            width: 50%;
+            float: left;
+        }
+        
+        .header .login {
+            position: relative;
+        }
+        
+        .header .login p {
+            color: #fff;
+            font-size: 14px;
+            margin: 0;
+            padding: 10px 10px;
+            text-transform: uppercase;
+            cursor: pointer;
+            text-align: right;
+        }
+        
+        .header .dropdown-menu {
+            position: absolute;
+            top: 40px;
+            right: 0px;
+            left: auto;
+            width: 290px;
+            border-radius: 0;
+            padding: 10px;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        .header .dropdown-menu h3 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            margin: 0 0 10px 0;
+            text-transform: uppercase;
+        }
+        
+        .header .dropdown-menu button {
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+        }
+        /* Main */
+        
+        .main {
+            background: url(bg.jpg) no-repeat center center;
+            background-size: cover;
+            height: 600px;
+        }
+        
+        #accordion {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            margin-top: 20px;
+        }
+        
+        .ui-accordion-header {
+            cursor: pointer;
+            background-color: #1c1c1c;
+            border-top: 1px solid #ddd;
+            color: #fff;
+            font-family: 'Oswald', sans-serif;
+            font-size: 18px;
+            margin: 0;
+            outline: 0;
+            padding: 8px 20px;
+            text-transform: uppercase;
+        }
+        
+        .ui-accordion-content {
+            font-family: Roboto, sans-serif;
+            font-size: 14px;
+            padding: 0px 20px;
+        }
+        
+        .ui-accordion-content ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .ui-accordion-content li {
+            padding: 1px 0;
+        }
+        /* Supporting */
+        
+        .supporting {
+            background-color: #1c1c1c;
+        }
+        
+        .supporting h2 {
+            font-family: 'Oswald', sans-serif;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 24px;
+            margin-top: 40px;
+            color: #fff;
+        }
+        
+        .supporting p {
+            font-family: Roboto, sans-serif;
+            text-align: center;
+            margin: 8px 0 40px 0;
+            color: #fff;
+        }
+        
+        .feature {
+            background: url('https://s3.amazonaws.com/codecademy-content/projects/2/move-gear/01.jpg') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            width: 100%;
+        }
+        /* Footer */
+        
+        .footer {
+            background-color: #1c1c1c;
+            font-family: 'Oswald', sans-serif;
+            padding: 40px 0 20px 0;
+            color: #fff;
+        }
+        
+        .footer ul {
+            padding: 0;
+            list-style: none;
+            margin-bottom: 40px;
+        }
+        
+        .footer li {
+            text-transform: uppercase;
+        }
+        
+        .footer p {
+            color: #999;
+            font-size: 11px;
+        }
+    </style> -->
+        <link href='style_acc.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1>Move <span>Gear</span></h1> </div>
+                <div class="pull-right">
+                    <div class="login">
+                        <p>Login</p>
+                        <div class="dropdown-menu">
+                            <h3>Log in to MOVE</h3>
+                            <form role="form">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Email"> </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="password" placeholder="Password"> </div>
+                                <button type="submit" class="btn">Sign in</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="accordion">
+                        <h3>Featured</h3>
+                        <div>
+                            <ul>
+                                <li>Holiday Gift Guide</li>
+                                <li>New Releases</li>
+                                <li>Launch Calendar</li>
+                            </ul>
+                        </div>
+                        <h3>Shoes</h3>
+                        <div>
+                            <ul>
+                                <li>Basketball</li>
+                                <li>Football</li>
+                                <li>Training</li>
+                            </ul>
+                        </div>
+                        <h3>Clothing</h3>
+                        <div>
+                            <ul>
+                                <li>Mens</li>
+                                <li>Womens</li>
+                                <li>Kids</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="supporting">
+        <div class="container">
+            <h2>Better. Faster. Stronger. You</h2>
+            <p>A wide range of sporting gear especially designed to maximize your performance.</p>
+        </div>
+    </div>
+    <div class="feature"> </div>
+    <div class="footer">
+        <div class="container">
+            <ul>
+                <li>Gift Cards</li>
+                <li>Find a city</li>
+                <li>Become a member</li>
+                <li>Contact us</li>
+            </ul>
+            <p>&copy; MOVE</p>
+        </div>
+    </div>
+    <script src="https://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src='script_acc.js'></script>
+  </body>
+</html>
