@@ -31,7 +31,7 @@ var main = function() {
         $(p_class).html(message);
         $(input_id).addClass('error');
       }
-      if (i==3 && 0 < value.length && value.length < 8)
+      if (i==3 && 2 < value.length && value.length < 8)
         $(p_class).html(fields[3][3]);
         $(input_id).addClass('error');
       }

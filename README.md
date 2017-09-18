@@ -4,6 +4,7 @@ This is my collection of solutions to code challenges from Codecademy. While I a
 
 I also like to experiment with rem & em vs px, and test other fun stuff. Because when you experiment you find ways to break stuff, and then can rebuild them. Stronger. Better. It's also a chance to use github-like just now I discovered [how to make strike-thus] (https://help.github.com/articles/basic-writing-and-formatting-syntax/) -so feel free to teach yourself a few things, maybe we even work a pull request into the mix eh? 
 
+<<<<<<< HEAD
 >Cheers
 >Eric
 
@@ -41,3 +42,9 @@ I also like to experiment with rem & em vs px, and test other fun stuff. Because
 
 * Point Reyes, CA USA
   * https://farm3.staticflickr.com/2866/33806125362_25006f6c94_k.jpg
+=======
+chrome-extension://laookkfknpbbblfpciffpaejjkokdgca/backgrounds/bc02cd92-13e1-4bc3-8020-b0acf5c80880.jpg
+
+Huangshan, China
+chrome-extension://laookkfknpbbblfpciffpaejjkokdgca/backgrounds/68db4265-fa19-408a-81bc-d8ebed6537db.jpg
+>>>>>>> travel-plans
