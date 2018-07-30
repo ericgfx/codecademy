@@ -2,19 +2,39 @@
 <html>
   <head>
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
-<!-- <<<<<<< HEAD -->
     <link rel='stylesheet' href='style.css'/>
-    
-     <script type="text/javascript" src="app.js"></script>
-<!-- =======  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js" type="text/javascript"></script>
+        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/ui-lightness/jquery-ui.css" type="text/css" rel="stylesheet" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.js" type="text/javascript"></script>
+        <!--
+        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/themes/base/jquery-ui.css" type="text/css" rel="stylesheet" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.js" type="text/javascript"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.js" type="text/javascript"></script>
+        -->
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="apps.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-<!-- >>>>>>> origin/master  -->
+
+    <script type="text/javascript">
+            /*
+            $(function() {
+                $( "#search" ).autocomplete({
+                    appendTo: "#myContainer",
+                    source: [ "one", "two", "three" ]
+                });
+                $("#dialog").dialog();
+            });
+            // Got this from http://jsbin.com/zuzayipabi/edit?html,output
+            */
+            $function() {
+            	var cities = ['Tokyo', 'Seoul', 'Mexico City', 'New York', 'Mumbai', 'Jakarta', 'Sao Paulo', 'Delhi', 'Keihanshin', 'Shanghai', 'Manila', 'Hong Kong', 'Los Angeles', 'Kolkata', 'Moscow', 'Cairo', 'Buenos Aires', 'London', 'Beijing', 'Karachi', 'Paris'];
+            	cities.sort();
+            	$("#searchBox").autocomplete({
+            		appendTo: "#search",
+            		source: cities
+            	});
+            }
+            //w$(document).ready(main);
+        </script>
+
   </head>
   
   <body>
@@ -24,7 +44,7 @@
         <p>Form healthy habits to take your fitness to the next level.</p>
         <form class="form-inline">
           <div class="form-group">
-          <input type="text" class="form-control ui-autocomplete-input" id="search" placeholder="Find your city" autocomplete="off">
+          <input type="text" class="form-control ui-autocomplete-input" id="search" placeholder="Find your city" autocomplete="on">
           </div>
         </form>
         <a class="btn" href="#">Start Now</a>
@@ -70,7 +90,9 @@
         <a href="#" class="btn">Start Now</a>
       </div>
     </div>
-
-
+ <!-- 	<script src="https://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>	
+  	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script> -->
+  <!--	    <script type="text/javascript" src="city_complete.js"></script>  -->
+  <!--      <script src='CodeCademyVersion/app.js'></script>  -->
   </body>
 </html>
