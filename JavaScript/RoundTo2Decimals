@@ -1,0 +1,4 @@
+const roundTo2 = (num) =>{
+  return Number(Math.round(num+'e2')+'e-2').toFixed(2);
+}
+
