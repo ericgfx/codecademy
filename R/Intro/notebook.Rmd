@@ -1,0 +1,76 @@
+---
+title: "ACLU Child Separations"
+output: html_notebook
+---
+
+```{r message=FALSE, warning=FALSE}
+# load libraries
+
+
+```
+
+```{r}
+# load data
+
+```
+
+```{r}
+# inspect data
+
+
+```
+
+```{r}
+# select columns
+
+
+
+```
+
+```{r}
+# view columns
+
+```
+
+```{r}
+# rename columns
+
+
+
+
+
+
+
+```
+
+```{r}
+# add column
+
+
+
+
+```
+
+```{r}
+# latitude change
+
+
+
+
+```
+
+```{r}
+# number of children
+
+
+
+```
+
+```{r}
+# state analysis
+
+
+
+
+
+```
